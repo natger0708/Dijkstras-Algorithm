@@ -24,6 +24,8 @@ priority_queue[start] = 0
 
 visited = {}
 
+routes = {start : [start]}
+
 while priority_queue:
     # find the node with the smallest value in the priority queue
     # take it out of the priority queue and put it in the visited queue
